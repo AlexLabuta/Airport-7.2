@@ -1,17 +1,14 @@
 import com.skillbox.airport.Airport;
 import com.skillbox.airport.Flight;
+
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
 import java.util.Date;
 
-/**
- * @Author Adaye
- * creat 2022-05-10   5:55
- **/
 public class Main {
-    private static String DATE_FORMAT = "| yyyy/MM/dd | HH:mm |";
+    private static final String DATE_FORMAT = "| yyyy/MM/dd | HH:mm |";
 
     public static void main(String[] args) {
         int intervalTime = 2;
